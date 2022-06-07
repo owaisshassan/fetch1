@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+        body{
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(104, 104, 242) 0%, rgb(47, 142, 176) 90% );
+        }
+        h1{
+            text-align: center;
+            color: rgb(233, 218, 218);
+        }
+        #movie{
+            display: block;
+            margin: auto;
+            width:40%;
+            height: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        #btn{
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 15px;
+        }
+        #container{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        #container>p{
+            text-align: center;
+            color: rgb(233, 218, 218);
+        }
+        #container>h3{
+            text-align: center;
+            color: rgb(233, 218, 218);
+        }
+        img{
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+       
+         <h1>Movie Search</h1>
+        <input type="text" id="movie" placeholder="Enter Movie Name Here">
+        <button id="btn" onclick="getTitle()">Search</button>
+        <div id="container"> </div>
+
+    
+</body>
+</html>
